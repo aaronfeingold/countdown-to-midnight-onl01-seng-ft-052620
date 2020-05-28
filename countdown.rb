@@ -8,7 +8,7 @@ def countdown (n)
    until n == 0   
     puts "#{n} SECOND(S)!"
     n -= 1
-    "HAPPY NEW YEAR!"
+    return "HAPPY NEW YEAR!"
    end
 end
 
