@@ -13,5 +13,9 @@ def countdown (n)
 end
 
 def countdown_with_sleep (n)
-  
+  until n == 5
+    sleep 5
+    n -= 1
+  end
+end
 
